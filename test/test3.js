@@ -4,13 +4,13 @@ const math = require('../math');
 describe('math.js tests', () => {
     
     describe('math.divide() Test', () => {
-        it('should equal 3', () => {
-            const result = math.divide(3, 1);
-            expect(result).to.equal(3);
+        it('should equal 5', () => {
+            const result = math.divide(10, 2);
+            expect(result).to.equal(5);
         });
-        it('should equal 10', () => {
-            const result = math.divide(50, 5);
-            expect(result).to.equal(10);
+        it('should equal 4', () => {
+            const result = math.divide(24, 6);
+            expect(result).to.equal(4);
         });
     });
 });
