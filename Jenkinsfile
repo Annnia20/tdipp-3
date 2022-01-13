@@ -70,14 +70,14 @@ pipeline {
       /* stage("Continuous Delivery") {
             steps {
                 echo "Push all to DockerHub"
-                bat 'docker push ecaterinaciobanu49/lab4tidpp'
+                bat 'docker push Annnia20/tidpp-4'
             }
         }
         
         stage("Continuous Deployment") {
             steps {
                 echo "Docker Build & docker-compose"
-                bat 'docker build . -t ecaterinaciobanu49/lab4tidpp && docker-compose up'
+                bat 'docker build . -t Annnia20/tidpp-4 && docker-compose up'
             }
         } */
     }
